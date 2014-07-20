@@ -1,4 +1,4 @@
-load('imageConfigRegionsLabels.mat');
+load imagesRegionsLabels
 
 %icdar2003
 disp('icdar2003train')

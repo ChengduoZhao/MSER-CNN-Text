@@ -1,4 +1,4 @@
-load('imageConfigInitial.mat');
+load images
 
 %icdar2003
 disp('icdar2003train')
@@ -24,4 +24,4 @@ disp('svttest')
 svttest=getAllRegionLists(svttest);
 svttest=getAllRegionLabels(svttest,0.75);
 
-save('imageConfigRegionsLabels.mat');
+save imagesRegionsLabels

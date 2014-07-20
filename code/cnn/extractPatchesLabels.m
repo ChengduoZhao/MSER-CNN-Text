@@ -22,6 +22,5 @@ function [ data, labels] = extractPatchesLabels( imageConfig )
         labels(k:k+currentNumPatches-1)=imageConfig(i).labels;
         k=k+currentNumPatches;
     end
-    data=uint8(data);
     labels=logical(labels);
 end
